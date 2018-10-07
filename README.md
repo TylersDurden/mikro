@@ -16,7 +16,7 @@ are also connected in parallel to GPIO ports on the Raspberry PI.
 the joystick, and see if this real time input can be implemented in
 games/programs as a source of user input! 
 
-[Joystick Usage](https://drive.google.com/file/d/1FGiaLC9TFn_gdNJQfmulh9PAbnwjkbFd/view)
+[Joystick](https://drive.google.com/file/d/1FGiaLC9TFn_gdNJQfmulh9PAbnwjkbFd/preview)
 
 # Raspberry Pi 
 
