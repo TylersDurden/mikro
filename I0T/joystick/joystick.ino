@@ -9,6 +9,8 @@ const int ledRight = 5; //D5 is Vy, and also Blue LED
 const int ledButt = 6; // D6 is Switch, and Red LED 
 const int ledUp = 9;
 
+
+
 int sense1 = 0; // initialize Vx as zero  
 int sense2 = 0; // initialize Vy as zero
 int sense3 = 0; // initialize Sw at zero
@@ -69,7 +71,7 @@ void loop() {
        digitalWrite(ledUp, LOW);
    }
 
-  // wait 2 milliseconds before the next loop for the analog-to-digital
-  // converter to settle after the last reading:
-  delay(5);
+  // wait 2 ms before the next loop so A/D
+  // converter can settle from last reading
+  delay(2);
 }

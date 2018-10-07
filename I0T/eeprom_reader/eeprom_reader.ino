@@ -28,5 +28,5 @@ void loop(){
   if (address == EEPROM.length()){
     address = 0;
   }
-  delay(500);
+  delay(50);
 }
