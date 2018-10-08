@@ -28,9 +28,9 @@ void setup() {
 }
 
 void loop() {
-  if(sum<12 && !bounced) sum++;
+  if(sum<16 && !bounced) sum++;
   if(bounced) sum--;
-  if(sum>=12){bounced=true;}
+  if(sum>=15){bounced=true;}
   if(sum==0){bounced=false;}
   
   if(sum == 1){ // 1
@@ -128,7 +128,7 @@ void loop() {
     digitalWrite(ledG, HIGH);  //4
     digitalWrite(ledB, HIGH);  //8
   }
-  // Serial.println(sum);
+  Serial.println(sum);
   // Sleep for 3ms to let A/D settle
-  delay(80);
+  delay(100);
 }
